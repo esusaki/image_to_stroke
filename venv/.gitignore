@@ -1,4 +1,4 @@
 .env
 static/images/*
 __pycache__
-Lib
+Lib/
