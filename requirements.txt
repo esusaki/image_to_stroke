@@ -5,3 +5,4 @@ opencv-python==4.11.0.86
 pillow==11.0.0
 gunicorn==23.0.0
 python-dotenv==1.0.1
+svgwrite==1.4.3
