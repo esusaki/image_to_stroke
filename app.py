@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 
 app = Flask(__name__)
-app.secret_key = load_dotenv()
+app.secret_key = load_dotenv("secret_key")
 
 @app.route("/", methods = ["GET", "POST"])
 def home():
