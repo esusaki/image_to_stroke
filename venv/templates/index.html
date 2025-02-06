@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image to stroke</title>
+</head>
+<body>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <input type="file" name="uploaded_image">
+        <input type="submit">
+    </form>
+
+    {% if 一時保存パス!=None %}
+        {{元の名前}}の変換が完了しました
+        <a href="{{一時保存パス}}" download>ダウンロード</a>
+    {% endif %}
+</body>
+</html>
